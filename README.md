@@ -1,9 +1,11 @@
 # api documentation for  [zone.js (v0.8.5)](https://github.com/angular/zone.js#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-zone.js.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-zone.js) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-zone.js.svg)](https://travis-ci.org/npmdoc/node-npmdoc-zone.js)
 #### Zones for JavaScript
 
-[![NPM](https://nodei.co/npm/zone.js.png?downloads=true)](https://www.npmjs.com/package/zone.js)
+[![NPM](https://nodei.co/npm/zone.js.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/zone.js)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-zone.js/build/screenCapture.buildNpmdoc.browser._2Fhome_2Ftravis_2Fbuild_2Fnpmdoc_2Fnode-npmdoc-zone.js_2Ftmp_2Fbuild_2Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-zone.js/build/apidoc.html)
+- [https://npmdoc.github.io/node-npmdoc-zone.js/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-zone.js/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-zone.js/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-zone.js/build/apidoc.html)
 
 ![npmPackageListing](https://npmdoc.github.io/node-npmdoc-zone.js/build/screenCapture.npmPackageListing.svg)
 
@@ -82,21 +84,17 @@
     "main": "dist/zone-node.js",
     "maintainers": [
         {
-            "name": "angular",
-            "email": "angular-core+npm@google.com"
+            "name": "angular"
         },
         {
-            "name": "angularcore",
-            "email": "angular-core+npm@google.com"
+            "name": "angularcore"
         },
         {
-            "name": "btford",
-            "email": "briantford@gmail.com"
+            "name": "btford"
         }
     ],
     "name": "zone.js",
     "optionalDependencies": {},
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git://github.com/angular/zone.js.git"
@@ -126,16 +124,6 @@
     "version": "0.8.5"
 }
 ```
-
-
-
-# <a name="apidoc.tableOfContents"></a>[table of contents](#apidoc.tableOfContents)
-
-#### [module zone.js](#apidoc.module.zone.js)
-
-
-
-# <a name="apidoc.module.zone.js"></a>[module zone.js](#apidoc.module.zone.js)
 
 
 
