@@ -1,4 +1,7 @@
-# api documentation for  [zone.js (v0.8.5)](https://github.com/angular/zone.js#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-zone.js.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-zone.js) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-zone.js.svg)](https://travis-ci.org/npmdoc/node-npmdoc-zone.js)
+# npmdoc-zone.js
+
+#### basic api documentation for  [zone.js (v0.8.8)](https://github.com/angular/zone.js#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-zone.js.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-zone.js) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-zone.js.svg)](https://travis-ci.org/npmdoc/node-npmdoc-zone.js)
+
 #### Zones for JavaScript
 
 [![NPM](https://nodei.co/npm/zone.js.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/zone.js)
@@ -35,6 +38,7 @@
         "concurrently": "^2.2.0",
         "conventional-changelog": "^1.1.0",
         "es6-promise": "^3.0.2",
+        "google-closure-compiler": "^20170409.0.0",
         "gulp": "^3.8.11",
         "gulp-clang-format": "^1.0.23",
         "gulp-conventional-changelog": "^1.1.0",
@@ -71,14 +75,14 @@
         "test": "test"
     },
     "dist": {
-        "shasum": "7906e017482cbff4c3f079c5c34305ce941f5ba2",
-        "tarball": "https://registry.npmjs.org/zone.js/-/zone.js-0.8.5.tgz"
+        "shasum": "354f02bb7241af834bb83b310308a89ad012d3af",
+        "tarball": "https://registry.npmjs.org/zone.js/-/zone.js-0.8.8.tgz"
     },
     "files": [
         "lib",
         "dist"
     ],
-    "gitHead": "e11d9ff6c7b0f0bb27d0efd49f03d74e47ea48c9",
+    "gitHead": "7b43b51239d21753f50df04eff3dac6f89e5328c",
     "homepage": "https://github.com/angular/zone.js#readme",
     "license": "MIT",
     "main": "dist/zone-node.js",
@@ -102,6 +106,7 @@
     "scripts": {
         "changelog": "gulp changelog",
         "ci": "npm run lint && npm run format && npm run promisetest && npm run test:single && npm run test-node",
+        "closure:test": "scripts/closure/closure_compiler.sh",
         "format": "gulp format:enforce",
         "karma-jasmine": "karma start karma-build-jasmine.conf.js",
         "karma-jasmine:autoclose": "npm run karma-jasmine:single && npm run ws-client",
@@ -121,7 +126,8 @@
         "ws-server": "node ./test/ws-server.js"
     },
     "typings": "dist/zone.js.d.ts",
-    "version": "0.8.5"
+    "version": "0.8.8",
+    "bin": {}
 }
 ```
 

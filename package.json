@@ -1,7 +1,7 @@
 {
     "author": "kai zhu <kaizhu256@gmail.com>",
     "buildNpmdoc": "zone.js",
-    "description": "api documentation for [zone.js (v0.8.5)](https://github.com/angular/zone.js#readme) [![npm package](https://img.shields.io/npm/v/npmdoc-zone.js.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-zone.js) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-zone.js.svg)](https://travis-ci.org/npmdoc/node-npmdoc-zone.js)",
+    "description": "#### basic api documentation for  [zone.js (v0.8.8)](https://github.com/angular/zone.js#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-zone.js.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-zone.js) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-zone.js.svg)](https://travis-ci.org/npmdoc/node-npmdoc-zone.js)",
     "devDependencies": {
         "electron-lite": "kaizhu256/node-electron-lite#alpha",
         "utility2": "kaizhu256/node-utility2#alpha",
